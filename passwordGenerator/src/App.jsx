@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
 //useState is used for rendering the chamged in the code. React itself renders the code for the user on changes.It actually interacts with the UI.
-//useCallback is used for optimising the code by saving values inside the cache.It takes a function and an dependency array.
+//useCallback is used for optimising the code by saving values inside the cache.It takes a function and an dependency array.(Memorize)
 //useEffect is used to run the code as per the dependecies are changed. it also takes same input as callback.
 //useRef is used to give a reference of a thing. example we referenced the input value to the button for copying.
 
