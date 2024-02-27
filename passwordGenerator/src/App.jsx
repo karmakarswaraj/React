@@ -25,7 +25,7 @@ function App() {
       <br />
       <div className="bg-blue-800 p-4 rounded-lg ">
         <div className="flex justify-center p-4 m-4 gap-4">
-          <input className="w-full p-2 rounded-lg" type="password" id="password" name="password" required />
+          <input value="{password}"className="w-full p-2 rounded-lg" type="text" readOnly/>
           <button>Copy</button>
         </div>
         <div className="flex justify-between p-4 m-4 gap-4">
