@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function useCurrencyInfo(currency) {
     const [data, setData] = useState({});
-    let url = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`
+    let url = `https://exchange-rates.abstractapi.com/v1/live/?api_key=4eaa7e9c5b504eb88ba8e039d4f472c3&base=${currency}`
 
     useEffect(() => {
         const fetchData = async () => { //async function to fetch
