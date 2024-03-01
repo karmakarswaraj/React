@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div className="w-full mx-auto max-w-7xl">
+    <div className="w-full mx-auto bg-blue-400 max-w-7xl">
       <aside className="relative mx-2 overflow-hidden text-black rounded-lg sm:mx-16 sm:py-16">
         <div className="relative z-10 max-w-screen-xl px-4 pt-10 pb-20 mx-auto sm:py-24 sm:px-6 lg:px-8">
           <div className="max-w-xl space-y-8 text-center sm:mt-1 mt-80 sm:text-right sm:ml-auto">

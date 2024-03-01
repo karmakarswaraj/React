@@ -4,7 +4,7 @@ import {Link,NavLink} from 'react-router-dom'
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 shadow">
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+      <nav className=" bg-blue-200 border-gray-200 px-4 lg:px-6 py-2.5">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
           <Link to="/" className="flex items-center">
             <img

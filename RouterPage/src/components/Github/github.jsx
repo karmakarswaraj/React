@@ -6,7 +6,7 @@ function Github() {
   const data = useLoaderData();
 
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-900">
+    <div className="flex items-center justify-center h-screen bg-blue-400">
       <div className="p-8 text-white bg-gray-700 rounded-lg">
         <h1 className="mb-4 text-3xl font-bold">Github Profile</h1>
         <div className="flex items-center">
