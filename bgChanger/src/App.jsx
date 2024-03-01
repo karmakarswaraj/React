@@ -13,20 +13,20 @@ function App() {
   return (
     <>
       <div className="w-full h-screen duration-200" style={{ backgroundColor: color }}>
-        <div className="bg-black rounded-lg p-4">
-          <button className="m-2" onClick={() => setColor(myColor.c1)}>
+        <div className="p-4 bg-black rounded-lg">
+          <button className="m-2" onClick={() => setColor(myColor.c1)}style={{background:myColor.c1}}>
             {myColor.c1}
           </button>
-          <button className="m-2" onClick={() => setColor(myColor.c2)}>
+          <button className="m-2" onClick={() => setColor(myColor.c2)}style={{background:myColor.c2}}>
             {myColor.c2}
           </button>
-          <button className="m-2" onClick={() => setColor(myColor.c3)}>
+          <button className="m-2" onClick={() => setColor(myColor.c3)} style={{background:myColor.c3}}>
             {myColor.c3}
           </button>
-          <button className="m-2" onClick={() => setColor(myColor.c4)}>
+          <button className="m-2" onClick={() => setColor(myColor.c4)}style={{background:myColor.c4}}>
             {myColor.c4}
           </button>
-          <button className="m-2" onClick={() => setColor(myColor.c5)}>
+          <button className="m-2" onClick={() => setColor(myColor.c5)}style={{background:myColor.c5}}>
             {myColor.c5}
           </button>
         </div>
