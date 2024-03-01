@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <footer className="bg-white border-y">
@@ -19,12 +19,12 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="font-medium text-gray-500">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/" className={({ isActive }) => `hover:underline ${isActive ? "text-gray-700" : "text-orange-700"}`}>
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
+                                    <Link to="/about" className={({ isActive }) => `hover:underline ${isActive ? "text-gray-700" : "text-orange-700"}`}>
                                         About
                                     </Link>
                                 </li>
@@ -35,8 +35,8 @@ export default function Footer() {
                             <ul className="font-medium text-gray-500">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
-                                        className="hover:underline"
+                                        href="https://github.com/karmakarswaraj"
+                                        className={({ isActive }) => `hover:underline ${isActive ? "text-gray-700" : "text-orange-700"}`}
                                         target="_blank"
                                         rel="noreferrer"
                                     >
@@ -54,12 +54,12 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                             <ul className="font-medium text-gray-500">
                                 <li className="mb-4">
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="#" className={({ isActive }) => `hover:underline ${isActive ? "text-gray-700" : "text-orange-700"}`}>
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="#" className={({ isActive }) => `hover:underline ${isActive ? "text-gray-700" : "text-orange-700"}`}>
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
@@ -71,8 +71,8 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                        <a href="#" className="hover:underline">
+                            Swaraj Karmakar
                         </a>
                         . All Rights Reserved.
                     </span>
