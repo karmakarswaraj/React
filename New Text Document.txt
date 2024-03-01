@@ -1,0 +1,9 @@
+npm create vite@latest
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
