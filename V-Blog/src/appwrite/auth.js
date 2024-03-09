@@ -1,5 +1,5 @@
 import config from "../config/config";
-import { createClient, Account, ID, Client } from "appwrite";
+import { Client, Account, ID, Client } from "appwrite";
 
 export class AuthService {
   client = new Client();
